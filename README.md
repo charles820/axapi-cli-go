@@ -204,6 +204,8 @@ $ axapi-cli-go v21 system.device_info.cpu.current_usage get | jq '.Current_cpu_u
   * just to show details of how the actual request would be sent to AX Device. Currently to show http.Request structs' values.
 * ``--prettify``
   * prettify JSON output. if you want to process the JSON output, unset the flag and use [jq](http://stedolan.github.io/jq/) or some other stuff is highly recommended.
+* ``--config-json``
+  * if you built without editing ./config/config.go for any reason, you can specify AX Device info with json file. Please see ./config/config.json.sample
 
 ## Assumed environment
 
